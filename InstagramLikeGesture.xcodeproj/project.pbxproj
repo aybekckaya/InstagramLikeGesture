@@ -15,6 +15,8 @@
 		A3380FB422A18DB1002FDCA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3380FB222A18DB1002FDCA6 /* LaunchScreen.storyboard */; };
 		A3380FBF22A18DB1002FDCA6 /* InstagramLikeGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3380FBE22A18DB1002FDCA6 /* InstagramLikeGestureTests.swift */; };
 		A3380FCA22A18DB1002FDCA6 /* InstagramLikeGestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3380FC922A18DB1002FDCA6 /* InstagramLikeGestureUITests.swift */; };
+		A3380FD822A22932002FDCA6 /* LikeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3380FD722A22932002FDCA6 /* LikeGestureRecognizer.swift */; };
+		A3380FDA22A22AC3002FDCA6 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3380FD922A22AC3002FDCA6 /* HeartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A3380FC522A18DB1002FDCA6 /* InstagramLikeGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramLikeGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3380FC922A18DB1002FDCA6 /* InstagramLikeGestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramLikeGestureUITests.swift; sourceTree = "<group>"; };
 		A3380FCB22A18DB1002FDCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3380FD722A22932002FDCA6 /* LikeGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeGestureRecognizer.swift; sourceTree = "<group>"; };
+		A3380FD922A22AC3002FDCA6 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				A3380FB222A18DB1002FDCA6 /* LaunchScreen.storyboard */,
 				A3380FB522A18DB1002FDCA6 /* Info.plist */,
 				A3380FAD22A18DB0002FDCA6 /* InstagramLikeGesture.xcdatamodeld */,
+				A3380FD722A22932002FDCA6 /* LikeGestureRecognizer.swift */,
+				A3380FD922A22AC3002FDCA6 /* HeartView.swift */,
 			);
 			path = InstagramLikeGesture;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				A3380FAF22A18DB0002FDCA6 /* InstagramLikeGesture.xcdatamodeld in Sources */,
 				A3380FA922A18DB0002FDCA6 /* ViewController.swift in Sources */,
+				A3380FD822A22932002FDCA6 /* LikeGestureRecognizer.swift in Sources */,
+				A3380FDA22A22AC3002FDCA6 /* HeartView.swift in Sources */,
 				A3380FA722A18DB0002FDCA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
